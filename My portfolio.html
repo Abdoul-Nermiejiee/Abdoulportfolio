@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="N-J logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portFolio</title>
+    <style>
+                * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px;
+            background-color: #4b4bb7;
+            color: white;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li:hover{
+            background-color: #1d1d47;
+            border: 2px black double;
+            border-radius: 20%;
+            margin: 3px;
+            padding: 3px;
+        }
+
+        .myAbout {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px;
+            background: #4b4bb7;
+            color: white;
+        }
+
+        .About h1 {
+            font-size: 40px;
+            margin: 15px 0;    
+        }
+
+        .About p {
+            margin-bottom: 20px;
+        }
+
+        .myAbout button {
+            padding: 10px 20px;
+            border: none;
+            background: #ff6b6b;
+            color: white;
+            cursor: pointer;
+        }
+        .myAbout button a {
+            text-decoration: none;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+        }
+
+        .myAbout img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .work {
+            display: flex;
+            text-align: center;
+        }
+
+        .myWork {
+            flex: 1;
+            padding: 30px;
+            background: #f3e6e6;
+        }
+
+        .myWork h3 {
+            margin: 10px 0;
+        }
+
+        .myWork img {
+            display: inline;
+            height: 50px;
+            width: 50px;
+            
+        }
+
+        .myAbout img:hover {
+            border-radius: 15px;
+            border: 3px black solid;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h2>Abdoul Nermiejiee</h2>
+        <ul>
+            <li><a href="My portfolio.html">home</a></li>
+            <li><a href="My portfolio2.html">About me</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+    </nav>
+
+
+    <section class="myAbout">
+        <div class="About">
+            <small>My name is Abdoul Nermiejiee</small>
+            <h1>
+                <p>I am a Student of Ahmadu</p>
+                <p>Bello University, Nigeria</p>
+            </h1>
+            <h3>200 lvl, Computer Science.</h3>
+            <h3>I love coding, precisely Frontend, but more</h3>
+            <h3>interested in Backend, and now I'm enrolled</h3>
+            <h3>in UI/UX designer</h3><br>
+            <p>I build simple and clean websites using html and css</p>
+            <button>
+                <a href="mailto: abdullahabdussalam1279@gmail.com">
+                    Contact Me
+                </a>
+            </button>
+        </div>
+
+        <a href="Abdoul Nerm.jpg">
+            <img src="Abdoul Nerm.jpg" alt="Abdoul">
+        </a>
+    </section>
+    
+    <section class="work">
+        <div class="myWork">
+            <img src="frontend.png">
+            <h3>WEB Design</h3>
+            <p>Sometimes Frontend is also called Web design</p>
+            <p>I enjoy frontend everytime</p>
+            <p>its very interesting.</p>
+        </div>
+        
+        <div class="myWork">
+            <img src="backend.jpg">
+            <h3>Backend</h3>
+            <p>I actually enjoy backend more than frontend</p>
+            <p>But backend can make you cry</p>
+            <p>its also interesting.</p>
+        </div>
+
+        <div class="myWork">
+            <img src="design.jpg">
+            <h3>Graphics</h3>
+            <p>I got my first 2k from editing</p>
+            <p>I am grateful to Al-Haq Media</p>
+            <p>its also time exhausting</p>
+        </div>
+    </section>
+</body>
+</html>
